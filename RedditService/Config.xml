@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Settings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Tasks>
+    <Task>
+      <Name>Daily SCRUM Poster</Name>
+      <Mode>DAILY</Mode>
+      <Type>REDDIT</Type>
+      <Time>17:56</Time>
+    </Task>
+    <Task>
+      <Name>Daily SCRUM Poster</Name>
+      <Mode>DAILY</Mode>
+      <Type>EMAIL</Type>
+      <Time>17:56</Time>
+      <Subject>SCRUM Reminder</Subject>
+      <Body>A daily reminder to submit a reddit post before SCRUM. See you soon!</Body>
+      <Recipiants>
+        <Recipiant>Nathan.Jervis@phri.ca</Recipiant>
+        <Recipiant>Tyler.Holubeshen@phri.ca</Recipiant>
+        <Recipiant>Kieran.Commanda@phri.ca</Recipiant>
+        <Recipiant>Andrea.DeVries@phri.ca</Recipiant>
+        <Recipiant>Jeffery.Mackie@phri.ca</Recipiant>
+        <Recipiant>Alexander.Mayer@phri.ca</Recipiant>
+      </Recipiants>
+    </Task>
+  </Tasks>
+  <Config>
+    <Email>
+      <Sender>Tyler.Holubeshen@phri.ca</Sender>
+      <Server>cas.dbri.local</Server>
+      <Port>25</Port>
+    </Email>
+    <Reddit>
+      <Username>TylerH</Username>
+      <Password>Boomer12</Password>
+      <SubReddit>/r/sandbox/</SubReddit>
+    </Reddit>
+  </Config>
+</Settings>
+
